@@ -1,5 +1,6 @@
 package shiro_test
 
+<<<<<<< HEAD
 
 import org.apache.shiro.authc.UsernamePasswordToken
 import org.apache.shiro.SecurityUtils
@@ -32,4 +33,19 @@ class HomeController {
 	}
 
  
+=======
+class HomeController {
+
+    def index() {
+        render "This page is not secured"
+    }
+
+    def secured() {
+       render "This page requires a user to be logged in"
+    }
+
+    def admin() {
+       render "This page requires the logged in user to be an administrator"
+    }
+>>>>>>> 5596933d044abc50e7d7ca724273c94e949f6669
 }
