@@ -8,6 +8,10 @@ class SecurityFilters {
 	
 	def publicActions = [
 		signup: ['index', 'register'],
+<<<<<<< HEAD
+		home: ['*'],
+=======
+>>>>>>> 5596933d044abc50e7d7ca724273c94e949f6669
 		auth:['*']	
 	]
 	
@@ -25,7 +29,11 @@ class SecurityFilters {
 					return true
 				}
 				
+<<<<<<< HEAD
+				if (!controllerName || controllerName == 'assets'){
+=======
 				if (!controllerName){
+>>>>>>> 5596933d044abc50e7d7ca724273c94e949f6669
 					return true
 				}
 				

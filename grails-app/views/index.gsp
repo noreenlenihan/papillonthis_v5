@@ -1,3 +1,16 @@
+<<<<<<< HEAD
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  </head>
+
+  <body>
+	<a href="home">enter</a>
+  </body>
+</html>
+    
+=======
 <!DOCTYPE html>
 <html>
 	<head>
@@ -120,3 +133,4 @@
 		</div>
 	</body>
 </html>
+>>>>>>> 5596933d044abc50e7d7ca724273c94e949f6669

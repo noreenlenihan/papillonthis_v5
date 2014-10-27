@@ -13,7 +13,11 @@ class SignupController {
         User user = new User()
         [user: user]
     }
+<<<<<<< HEAD
+	
+=======
 
+>>>>>>> 5596933d044abc50e7d7ca724273c94e949f6669
     def register() {
 
         // Check to see if the username already exists
